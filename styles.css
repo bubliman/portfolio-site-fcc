@@ -1,0 +1,190 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+      background-color:black;
+    color:white;
+    padding:0;
+    margin:0;
+    
+        font-family: 'Teko', sans-serif;
+  }
+  .middle, #skills, #certifications {
+    font-size:40px;
+  }
+  @media (max-width: 660px) {
+   .middle, #skills, #certifications {
+    font-size:34px;
+  }
+  }
+  h1 {
+    font-size:63px;
+  }
+  nav {
+    
+    background-color:white;
+    width:100%;
+    margin:0;
+    height: 60px;
+    padding:15px 0;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:column;
+    
+  
+  }
+  nav a {
+    position:relative;
+    top:80px;
+    color:black;
+    text-decoration:none;
+  }
+  .flex  {
+    display:flex ;
+    justify-content:center;
+  }
+  
+  .flex {
+    background-color:white;
+    margin: 0 auto;
+    padding: 0;
+    width: 400px;
+  }
+  .black-square {
+    width:30%;
+    height:175px;
+    background-color:black;
+    display:flex;
+    flex-direction:row;
+  }
+  .black-square.right {
+    margin-left: 165px;
+    border-radius: 35px 0 0 35px;
+  }
+  .black-square.left {
+    margin-right: 165px;
+    border-radius: 0 35px 35px 0;
+  }
+  @media (max-width: 800px) {
+    .black-square.right {
+    margin-left: 130px;
+  }
+  .black-square.left {
+    margin-right: 130px;
+  }
+  }
+  @media (max-width: 660px) {
+    .black-square.right {
+    margin-left: 82.5px;
+  }
+  .black-square.left {
+    margin-right: 82.5px;
+  }
+  }
+  .white-square {
+    
+    top:75px;
+    left:-250px;
+    background-color:white;
+    width:280px;
+    height: 175px;
+  }
+  section#welcome-section {
+    border:45px solid white;
+    border-radius:100px;
+    width:50%;
+    margin:0 auto 0;
+    padding: 40px ;
+    max-width: 765px;
+    min-width: 240px;
+  }
+  section#welcome-section h1, p.middle {
+    margin: 0;
+  }
+  .blue {
+    color:#24CAFF;
+  }
+  #skills {
+    margin: 100px auto;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  .skills, .tools {
+    width:521px;
+    min-width:340px;
+    /* height:490px; */
+    /* border: white 2px solid; */
+    background-color:white;
+    color:black;
+    border-bottom: white 15px solid;
+  }
+  .skills ul, .tools ul {
+    color:white;
+    background-color:black;
+    height:70%;
+    margin: 15px;
+    padding: 20px 60px ;
+    border-radius:6px;
+  }
+  #skills h2 {
+    margin:0;
+    padding: 10px 0px 0px 40px;
+  }
+  .projects-flex {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  .project {
+    width:340;
+    height:360;
+    border: black 4px solid;
+    background-color:white;
+    color:black;
+    padding: 80px 10px 20px;
+    text-align:center;
+  }
+  .project:hover {
+    background-color: #DDDDDD;
+  }
+  .project img {
+    width: 310px;
+    height:310px;
+    object-fit:cover;
+    border: 1px solid  #DDDDDD;
+  }
+  .project:hover img {
+    transform: scale(0.95)
+  }
+  #projects{
+    width:100%;
+  }
+  #projects h1 {
+    margin: 0 auto;
+    width: 200px;
+    text-align:center;
+    background-color:black;
+    position:relative;
+    top:50px;
+    padding:5px;
+  }
+  #certifications {
+    margin: 100px 0;
+    text-align:center;
+  }
+  #contacts {
+    margin: 100px 0 0;
+    text-align:center;
+    background-color:white;
+    color:black;
+    padding:275px 0;
+  }
+  footer {
+    padding:10px;
+    text-align:center;
+  }
+  footer a {
+    color:white;
+  }
