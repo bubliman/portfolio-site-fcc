@@ -161,7 +161,7 @@ html {
   #projects{
     width:100%;
   }
-  #projects h1 {
+  #projects h1 { 
     margin: 0 auto;
     width: 200px;
     text-align:center;
