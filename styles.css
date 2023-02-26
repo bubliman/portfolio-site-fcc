@@ -164,7 +164,7 @@ html {
     border: 1px solid  var(--hover-color);
   }
   .project:hover img {
-    transform: scale(0.95)
+    transform: scale(0.95) 
   }
   #projects{
     width:100%;
