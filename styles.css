@@ -1,8 +1,8 @@
 :root {
-    --primary-color:blue;
-    --secondary-color:cyan;
-    --tritrary-color:red;
-    // #24CAFF
+    --primary-color:white;
+    --secondary-color:black;
+    --tritrary-color:blue;
+     /* #24CAFF */
     --hover-color:#DDDDDD;
 }
 
